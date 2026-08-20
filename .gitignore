@@ -1,0 +1,66 @@
+# ── Secrets & environment ──────────────────────────────────────────────────
+.env
+*.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+
+# ── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+.python-version
+pip-log.txt
+
+# ── Data (potentially large, sensitive, or personally identifiable) ────────
+data/raw/*
+data/processed/*
+data/gwas/*
+# Keep the committed stubs
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/gwas/PLACEHOLDER
+# Serialised Python objects and common data science output formats
+*.pkl
+*.pickle
+*.parquet
+*.h5
+*.hdf5
+# Log files
+*.log
+logs/
+
+# ── Testing & coverage ────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ── IDE ───────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini

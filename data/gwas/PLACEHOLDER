@@ -1,0 +1,8 @@
+# Drop GWAS summary stat files here.
+#
+# Supported formats:
+#   Simple:       gene_id<tab>p_value  (one SNP/gene per row)
+#   GWAS Catalog: full download TSV with MAPPED_GENE and P-VALUE columns
+#
+# Filename convention (used by pipeline/orchestrator.py for auto-discovery):
+#   <disease_slug>.tsv   e.g.  schizophrenia.tsv, bipolar_disorder.tsv

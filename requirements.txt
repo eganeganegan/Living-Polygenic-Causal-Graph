@@ -1,0 +1,21 @@
+# Core
+requests>=2.31.0
+urllib3>=2.2.0
+python-dotenv>=1.0.0
+
+# Data
+pandas>=2.1.0
+numpy>=1.26.0
+scipy>=1.11.0
+networkx>=3.2.0
+
+# Graph database
+neo4j>=5.0.0
+
+# Dashboard
+dash>=2.16.0
+dash-cytoscape>=1.0.0
+
+# Testing
+pytest>=8.0.0
+pytest-mock>=3.12.0
